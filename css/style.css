@@ -22,3 +22,11 @@ h3 {
 img {
     height: 80px;
 }
+
+#first-row {
+    margin: auto;
+}
+
+#second-row {
+    clear: both;
+}
