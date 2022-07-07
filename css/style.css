@@ -1,16 +1,24 @@
 * {
-    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka',
+        sans-serif;
 }
 
+/* title */
 header {
+    margin-top: 30px;
     color: #E53170;
     text-align: center;
 }
 
+
+/* members cards with photos & description */
 section {
-    width: 70%;
+    margin-top: 30px;
+    width: 1000px;
     text-align: center;
-    margin: auto;
 }
 
 main {
@@ -18,9 +26,22 @@ main {
     margin: auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.name {
+    padding-top: 8px;
+    padding-left: 15px;
+    float: left;
+}
+
 .container {
-    width: calc(100% / 3);
-    margin-top: 40px;
+    margin-left: 25px;
+    width: 300px;
+    margin-top: 35px;
     background-color: black;
     float: left;
     -webkit-box-shadow: 1px 0px 6px 2px #BDBDBD;
@@ -30,10 +51,7 @@ main {
 }
 
 h4 {
-    padding-top: 0px;
-    padding-left: 15px;
     color: white;
-    float: left;
 }
 
 img {
@@ -41,19 +59,12 @@ img {
     height: 80px;
 }
 
-#first-row {
-
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#second-row {
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 p {
-    float: left;
+    padding-top: 5px;
     color: white;
+    font-size: 13px;
+}
+
+.email {
+    color: #0092DF;
 }
